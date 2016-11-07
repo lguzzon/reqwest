@@ -12,13 +12,13 @@
   , "main": "./reqwest.js"
   , "ender": "./src/ender.js"
   , "devDependencies": {
-      "connect": "1.8.x"
+      "connect": "~3.5.0"
     , "mime": "1.x.x"
     , "sink-test": ">=0.1.2"
-    , "dispatch": "0.x.x"
+    , "dispatch": "^1.0.1"
     , "valentine": ">=1.4.7"
-    , "smoosh": "0.4.0"
-    , "delayed-stream" : "0.0.5"
+    , "smoosh": "0.4.1"
+    , "delayed-stream" : "1.0.0"
   }
   , "scripts": {
       "boosh": "smoosh make ./build.json"
