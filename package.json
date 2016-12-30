@@ -23,14 +23,14 @@
     "xhr2": false
   },
   "devDependencies": {
-    "connect": "1.8.x",
+    "connect": "3.5.x",
     "mime": "1.x.x",
-    "sink-test": ">=0.1.2",
-    "dispatch": "0.x.x",
-    "valentine": ">=1.4.7",
-    "smoosh": "0.4.0",
-    "delayed-stream": "0.0.5",
-    "bump": "0.2.3"
+    "sink-test": ">=1.0.2",
+    "dispatch": "1.x.x",
+    "valentine": ">=2.1.4",
+    "smoosh": "0.4.1",
+    "delayed-stream": "1.0.0",
+    "bump": "0.2.5"
   },
   "scripts": {
     "boosh": "smoosh make ./build.json",
